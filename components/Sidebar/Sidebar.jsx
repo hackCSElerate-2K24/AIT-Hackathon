@@ -184,7 +184,7 @@ function Sidebar({ onLinkClick }) {
             <Link
               href="/ManageBuses"
               style={{ color: "inherit", textDecoration: "none" }}
-              onClick={onLinkClick}
+               onClick={onLinkClick}
             >
               <div className={styles.item}>
                 <FaBus

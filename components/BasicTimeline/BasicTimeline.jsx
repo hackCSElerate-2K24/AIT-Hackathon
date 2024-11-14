@@ -133,7 +133,7 @@ function BasicTimeline() {
 
   return (
     <>
-      <AdminProtectedRoute>
+      {/* <AdminProtectedRoute> */}
         {allBusDetails &&
           Array.isArray(allBusDetails) &&
           allBusDetails.map((bus) => (
@@ -457,9 +457,9 @@ function BasicTimeline() {
               </div>
             </div>
           ))}
-      </AdminProtectedRoute>
+      {/* </AdminProtectedRoute> */}
 
-      <StudentProtectedRoute>
+      {/* <StudentProtectedRoute> */}
         <div className={styles.container}>
           <div className={styles.title}>Bus No: {student}</div>
           <div className={styles.details}>
@@ -751,7 +751,7 @@ function BasicTimeline() {
             </div>
           </div>
         </div>
-      </StudentProtectedRoute>
+      {/* </StudentProtectedRoute> */}
     </>
   );
 }

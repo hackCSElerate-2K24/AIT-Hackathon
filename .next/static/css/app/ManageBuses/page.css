@@ -1,0 +1,24 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./app/ManageBuses/ManageBuses.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.ManageBuses_container__bomN4{
+    margin-top: -1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.ManageBuses_box__BoZOT{
+    background-color: white;
+    width: 92%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.ManageBuses_title__8ohO8{
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    font-weight: bolder;
+    font-size: 19px;
+}

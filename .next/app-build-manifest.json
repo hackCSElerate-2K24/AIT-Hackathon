@@ -29,6 +29,30 @@
       "static/chunks/main-app.js",
       "static/css/app/Profile/page.css",
       "static/chunks/app/Profile/page.js"
+    ],
+    "/ManageBuses/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/ManageBuses/page.css",
+      "static/chunks/app/ManageBuses/page.js"
+    ],
+    "/ManageDrivers/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/ManageDrivers/page.css",
+      "static/chunks/app/ManageDrivers/page.js"
+    ],
+    "/ManageStudents/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/ManageStudents/page.css",
+      "static/chunks/app/ManageStudents/page.js"
+    ],
+    "/SetRoutes/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/SetRoutes/page.css",
+      "static/chunks/app/SetRoutes/page.js"
     ]
   }
 }

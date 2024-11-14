@@ -180,7 +180,7 @@ function Sidebar({ onLinkClick }) {
               Notifications
             </div>
           </Link>
-          <AdminProtectedRoute>
+          {/* <AdminProtectedRoute> */}
             <Link
               href="/ManageBuses"
               style={{ color: "inherit", textDecoration: "none" }}
@@ -249,7 +249,7 @@ function Sidebar({ onLinkClick }) {
                 Set Routes
               </div>
             </Link>
-          </AdminProtectedRoute>
+          {/* </AdminProtectedRoute> */}
           <Link
             href="/Profile"
             style={{ color: "inherit", textDecoration: "none" }}

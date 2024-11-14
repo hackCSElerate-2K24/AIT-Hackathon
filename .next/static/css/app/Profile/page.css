@@ -1,0 +1,136 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./app/Profile/StudentProfile.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.StudentProfile_container__KoF42{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.StudentProfile_box__I2qPA{
+    background-color: white;
+    width: 92%;
+    height: 100%;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.StudentProfile_avatar___7_g7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+    border-right: 1.5px solid black;
+    font-weight: bolder;
+}
+
+.StudentProfile_details__guoLl{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.StudentProfile_update__6MDlj{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.StudentProfile_item__U8pv6{
+    display: flex;
+    border-radius: 11px;
+    height: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    background-color: #235ff4;
+    color: white;
+    padding-bottom: .5rem;
+}
+
+.StudentProfile_item__U8pv6:hover{
+    transform: scale(1.08);
+}
+
+.StudentProfile_detailsContainer__klw4V{
+    /* margin: 2rem; */
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.StudentProfile_name__itg5h{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.StudentProfile_title__XwXRk{
+    margin-bottom: 1rem;
+    margin-left: .1rem;
+    font-weight: bold;
+}
+
+.StudentProfile_input___VSfQ{
+    border: none;
+    outline: none;
+    background-color: #eae7e7be;
+    border-radius: 1rem;
+    height: 30px;
+    width: 70%;
+    padding-left: 1rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    color: black;
+}
+
+.StudentProfile_input___VSfQ::placeholder{
+    color: rgba(40, 39, 39, 0.584);
+}
+
+.StudentProfile_confirmation_content__W5x24 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.StudentProfile_avatar_container__jQWCf {
+  margin-top: 5rem;
+}
+
+.StudentProfile_button_container__4muUc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 5rem; */
+  width: 12rem;
+}
+
+.StudentProfile_button_wrapper__dxcfa {
+    display: flex;
+    justify-content: center;
+    width: 12rem;
+    margin-top: 4rem;
+}
+
+
+@media (max-width: 821px) {
+    .StudentProfile_box__I2qPA{
+        grid-template-columns: 1fr;
+    }
+    .StudentProfile_avatar___7_g7{
+        border-right: 0;
+    }
+    .StudentProfile_avatar___7_g7{
+        margin-bottom: 0;
+        margin-top: 2rem;
+    }
+    .StudentProfile_detailsContainer__klw4V{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}

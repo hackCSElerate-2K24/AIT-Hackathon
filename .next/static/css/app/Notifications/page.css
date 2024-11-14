@@ -1,0 +1,177 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/Notification/Notification.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.Notification_container__j0_nd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 90%;
+    margin-bottom: 1.5rem;
+}
+
+.Notification_box__Ya7yG{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 8% 86%;
+    padding-top: .5rem;
+}
+
+.Notification_avatar__yuu_k{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    /* margin-top: 1.3rem; */
+    font-weight: bolder;
+}
+
+.Notification_img__r4azq{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #eae7e7be;
+
+}
+
+.Notification_details__469tM{
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+}
+
+.Notification_item__Sc7xf{
+    display: flex;
+    border-radius: 11px;
+    height: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    background-color: #235ff4;
+    color: white;
+}
+
+.Notification_item__Sc7xf:hover{
+    transform: scale(1.08);
+}
+
+.Notification_detailsContainer__3cbF0{
+    /* margin: 2rem; */
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Notification_name__OPtbn{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Notification_title__1KO9v{
+    margin-bottom: 1rem;
+    margin-left: .1rem;
+    font-weight: bold;
+}
+
+.Notification_input__qW2qu{
+    border: none;
+    outline: none;
+    background-color: #eae7e7be;
+    border-radius: 1rem;
+    height: 30px;
+    width: 70%;
+    padding-left: 1rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    color: black;
+}
+
+.Notification_input__qW2qu::placeholder{
+    color: rgba(40, 39, 39, 0.584);
+}
+
+.Notification_confirmation_content__ggiJx {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Notification_avatar_container__G5woV {
+  margin-top: 5rem;
+}
+
+.Notification_button_container__ghCs_ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 5rem; */
+  width: 12rem;
+}
+
+.Notification_button_wrapper__ggQhh {
+    display: flex;
+    justify-content: center;
+    width: 12rem;
+    margin-top: 4rem;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .Notification_box__Ya7yG{
+        grid-template-columns: 12% 88%;
+    }
+}
+@media (max-width: 769px) {
+    .Notification_box__Ya7yG{
+        grid-template-columns: 12% 80%;
+    }
+}
+
+@media (max-width: 431px) {
+    .Notification_box__Ya7yG{
+        grid-template-columns: 20% 70%;
+    }
+}
+@media (max-width: 373px) {
+    .Notification_box__Ya7yG{
+        grid-template-columns: 20% 75%;
+    }
+    .Notification_avatar__yuu_k{
+        margin-top: -.5rem;
+    }
+}
+@media (max-width: 360px) {
+    .Notification_box__Ya7yG{
+        grid-template-columns: 20% 75%;
+    }
+    .Notification_details__469tM{
+        margin-bottom: .5rem;
+    }
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./app/Notifications/Notifications.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.Notifications_container__OKrTu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.Notifications_busTitle__U9BkE{
+    width: 90%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 1.35rem;
+    margin-bottom: 2rem;
+}

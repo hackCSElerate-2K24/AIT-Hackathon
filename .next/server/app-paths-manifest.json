@@ -1,0 +1,11 @@
+{
+  "/page": "app/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/Notifications/page": "app/Notifications/page.js",
+  "/api/RoleConnector/route": "app/api/RoleConnector/route.js",
+  "/api/AllRoutesConnector/route": "app/api/AllRoutesConnector/route.js",
+  "/api/AllBusConnector/route": "app/api/AllBusConnector/route.js",
+  "/api/Connector/route": "app/api/Connector/route.js",
+  "/api/AllBusLocationConnector/route": "app/api/AllBusLocationConnector/route.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
+}

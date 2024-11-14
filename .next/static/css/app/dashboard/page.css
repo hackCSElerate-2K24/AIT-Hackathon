@@ -1,0 +1,814 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/Grid/Grid.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.Grid_container__AwC0z{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.Grid_card__ya0qE{
+    border-radius: 3rem;
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.Grid_card1__K5in5{
+    border-radius: 3rem;
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Grid_cont__MdgPR{
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Grid_logo__IO1rw{
+    font-size: 1.5rem;
+    color: blue;
+}
+
+.Grid_title1__ebhAY{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.Grid_text__JAMyb{
+    font-size: .8rem;
+    color: #333;
+}
+
+.Grid_title__lhA0k{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Grid_block__6whQ4{
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    justify-content: flex-start;
+    padding-left: 1.2rem;
+    align-items: center;
+    margin-bottom: 1.1rem;
+}
+
+.Grid_greenText__Blhpu{
+    background-color: #2b2e36;
+    margin-top: .1rem;
+    padding: 0.25rem 0.5rem; 
+    border-radius: 6px;
+    align-items: center;
+    margin-left: 1.5rem;
+    color: #1ECB4F;
+}
+
+.Grid_yellowText__SC75W{
+    background-color: #2b2e36;
+    margin-top: .1rem;
+    padding: 0.25rem 0.5rem; 
+    border-radius: 6px;
+    align-items: center;
+    margin-left: 1.5rem;
+    color: yellow;
+}
+
+.Grid_redText__z6Pk2{
+    background-color: #2b2e36;
+    margin-top: .1rem;
+    padding: 0.25rem 0.5rem; 
+    border-radius: 6px;
+    align-items: center;
+    margin-left: 1.5rem;
+    color: red;
+}
+
+.Grid_textt__iAYqj{
+    margin-left: 1rem;
+    display: flex;
+    width: 85%;
+}
+
+
+@media (max-width: 1030px) {
+    .Grid_container__AwC0z {
+      grid-template-columns: 1fr 1fr; 
+      margin-right: 1rem;
+    }
+}
+@media (max-width: 650px) {
+    .Grid_container__AwC0z {
+      grid-template-columns: 1fr; 
+      margin-right: 1.2rem;
+    }
+    .Grid_container__AwC0z{
+        width: 82%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .Grid_card__ya0qE{
+        padding-left: 4px;
+        padding-right: 3px;
+    }
+    .Grid_title__lhA0k{
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: -5px;
+    }
+    .Grid_greenText__Blhpu{
+        display: flex;
+        margin-top: -.2rem;
+        padding: 3px 5px;
+        margin-left: 1.2rem;
+        align-items: center;
+    }
+    .Grid_yellowText__SC75W{
+        display: flex;
+        margin-top: -.2rem;
+        padding: 3px 5px;
+        margin-left: 1.2rem;
+        align-items: center;
+    }
+    .Grid_redText__z6Pk2{
+        display: flex;
+        margin-top: -.25rem;
+        padding: 3px 5px;
+        margin-left: 1.2rem;
+        align-items: center;
+    }
+    .Grid_textt__iAYqj{
+        font-size: 12.5px;
+        margin-top: -.3rem;
+    }
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/Info/Info.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.Info_container__qO92z{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
+    background-color: white;
+    border-radius: 2.2rem;
+}
+
+.Info_wrapper___x4xJ{
+  display: flex;
+  justify-content: center;
+}
+
+.Info_box__7jPWd {
+    width: 100%;
+    border-radius: 10px;
+    grid-gap: 2rem;
+    gap: 2rem;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
+  }
+  
+.Info_content__VXpXr {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+
+.Info_value__7HCyD {
+    display: flex;
+    font-weight: 300;
+    align-items: baseline;
+    /* margin-top: 0.5rem; */
+    margin-bottom: 0.5rem;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: .8px;
+}
+
+.Info_title__aG_Fe {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 650;
+}
+
+@media (max-width:769px) {
+  .Info_box__7jPWd{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width:378px) {
+  .Info_container__qO92z{
+    width: 85%;
+  }
+}
+@media (max-width:346px) {
+  .Info_container__qO92z{
+    width: 85%;
+  }
+  .Info_box__7jPWd{
+    grid-template-columns: 1fr; 
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/BasicTimeline/BasicTimeline.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.BasicTimeline_container__nltt2{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 2.2rem;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.BasicTimeline_title__uE_j3{
+    font-size: 20px;
+    display: flex;
+    width: 100%;
+    font-weight: bolder;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.BasicTimeline_details__9EbHU{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.BasicTimeline_content__YHTvu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.BasicTimeline_wrapper__7nXdb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1dfdf;
+    border-radius: 2rem;
+    margin: 2rem;
+    height: auto;
+    align-items: center;
+    width: 65%;
+}
+.BasicTimeline_timeline__Lu4ji{
+    margin-top: 1rem;
+    display: flex;
+}
+.BasicTimeline_busStatus__74cAx{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1.4rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #d7b5b5;
+}
+.BasicTimeline_Status__Cwh10{
+    background-color: #1ECB4F;
+    border-radius: 7px;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    display: flex;
+    align-items: center;
+    margin-left: .5rem;
+    margin-top: -.2rem;
+}
+.BasicTimeline_greenText__HdD_I{
+    background-color: #1ECB4F;
+    margin-top: -.35rem;
+    padding: 0.25rem 0.5rem; 
+    border-radius: 6px;
+    align-items: center;
+    margin-left: .5rem;
+    color: white;
+    font-weight: bold;
+}
+.BasicTimeline_yellowText__Di0xw{
+    background-color: #FDF0CC;
+    margin-top: -.35rem;
+    padding: 0.25rem 0.5rem; 
+    border-radius: 6px;
+    align-items: center;
+    margin-left: .5rem;
+    color: rgb(237, 143, 2);
+    font-weight: bold;
+    display: flex;
+}
+.BasicTimeline_redText__b5rdE{
+    background-color: red;
+    margin-top: -.35rem;
+    padding: 0.25rem 0.5rem; 
+    border-radius: 6px;
+    align-items: center;
+    margin-left: .5rem;
+    color: white;
+    font-weight: bold;
+}
+.BasicTimeline_busStatus__74cAx{
+    font-weight: bolder;
+}
+.BasicTimeline_busDetails__TEQbz{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    gap: 1rem;
+    margin-top: 2rem;
+    justify-content: start;
+    width: 80%;
+    text-align: start;
+    align-items: start;
+    margin-bottom: 1.5rem;
+}
+.BasicTimeline_items__sQ8an{
+    display: flex;
+    flex-direction: column;
+}
+.BasicTimeline_itemName__pfvZA{
+    font-weight: bold;
+}
+.BasicTimeline_itemValue__QjhqD{
+    font-size: 22px;
+    font-weight: 200;
+    margin-top: .5rem;
+}
+.BasicTimeline_fault__2ja2A{
+    border-top: 1px solid #d7b5b5;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:378px) {
+    .BasicTimeline_container__nltt2{
+      width: 85%;
+    }
+}
+@media (max-width:769px) {
+    .BasicTimeline_details__9EbHU{
+        grid-template-columns: 1fr;
+    }
+    .BasicTimeline_busDetails__TEQbz{
+        grid-template-columns: 1fr;
+    }
+    .BasicTimeline_items__sQ8an{
+        display: flex;
+        flex-direction: row;
+    }
+    .BasicTimeline_itemValue__QjhqD{
+        margin-top: -5px;
+        margin-left: 1rem;
+    }
+}
+@media (max-width:376px) {
+    .BasicTimeline_wrapper__7nXdb{
+        height: auto;
+    }
+    .BasicTimeline_wrapper__7nXdb{
+        width: 95%;
+        margin: 0;
+    }
+    .BasicTimeline_busDetails__TEQbz{
+        gap: 0;
+        margin-top: -1rem;
+    }
+    .BasicTimeline_items__sQ8an{
+        display: flex;
+        flex-direction: row;
+        margin-top:2rem ;
+    }
+    .BasicTimeline_itemValue__QjhqD{
+        margin-top: 0px;
+        font-size: 15px;
+    }
+}
+@media (max-width:431px) {
+    .BasicTimeline_wrapper__7nXdb{
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+    .BasicTimeline_busStatus__74cAx{
+        margin-bottom: 1rem;
+    }
+    .BasicTimeline_busDetails__TEQbz{
+        gap: 0;
+        margin-top: -1rem;
+    }
+    .BasicTimeline_items__sQ8an{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem ;
+        margin-left: 0.5rem;
+    }
+    .BasicTimeline_itemName__pfvZA{
+        margin-left: -.2rem;
+    }
+    .BasicTimeline_itemValue__QjhqD{
+        margin-top: 5px;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: -.2rem;
+    }
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/BusDriverDetails/BusDriverDetails.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+.BusDriverDetails_container___LB3u{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 90%;
+    margin-bottom: 2rem;
+}
+
+.BusDriverDetails_box__Ad3F2{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 14% 86%;
+    padding-top: 1rem;
+}
+
+.BusDriverDetails_avatar__TKjbP{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    /* margin-top: 1.3rem; */
+    font-weight: bolder;
+}
+
+.BusDriverDetails_img__FsURc{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #eae7e7be;
+
+}
+
+.BusDriverDetails_details__ISvNx{
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+}
+
+.BusDriverDetails_item__93OLw{
+    display: flex;
+    border-radius: 11px;
+    height: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    background-color: #235ff4;
+    color: white;
+}
+
+.BusDriverDetails_item__93OLw:hover{
+    transform: scale(1.08);
+}
+
+.BusDriverDetails_detailsContainer__t1cFh{
+    /* margin: 2rem; */
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.BusDriverDetails_name__LaYlM{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.BusDriverDetails_title__OtJs_{
+    margin-bottom: 1rem;
+    margin-left: .1rem;
+    font-weight: bold;
+}
+
+.BusDriverDetails_input__M1Ypw{
+    border: none;
+    outline: none;
+    background-color: #eae7e7be;
+    border-radius: 1rem;
+    height: 30px;
+    width: 70%;
+    padding-left: 1rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    color: black;
+}
+
+.BusDriverDetails_input__M1Ypw::placeholder{
+    color: rgba(40, 39, 39, 0.584);
+}
+
+.BusDriverDetails_confirmation_content__pToKS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.BusDriverDetails_avatar_container__ehpeU {
+  margin-top: 5rem;
+}
+
+.BusDriverDetails_button_container__sR1kB {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 5rem; */
+  width: 12rem;
+}
+
+.BusDriverDetails_button_wrapper__Xv_A_ {
+    display: flex;
+    justify-content: center;
+    width: 12rem;
+    margin-top: 4rem;
+}
+
+
+@media (max-width: 821px) {
+    .BusDriverDetails_box__Ad3F2{
+        grid-template-columns: 35% 70%;
+    }
+}
+@media (max-width: 431px) {
+    .BusDriverDetails_box__Ad3F2{
+        grid-template-columns: 40% 70%;
+    }
+}
+@media (max-width: 373px) {
+    .BusDriverDetails_box__Ad3F2{
+        grid-template-columns: 43% 55%;
+    }
+    .BusDriverDetails_img__FsURc{
+        width: 60%;
+        height: 90%;
+    }
+}
+@media (max-width: 360px) {
+    .BusDriverDetails_box__Ad3F2{
+        grid-template-columns: 35% 65%;
+    }
+    .BusDriverDetails_img__FsURc{
+        width: 70%;
+        height: 80%;
+    }
+    .BusDriverDetails_details__ISvNx{
+        margin-top: 0rem;
+        margin-bottom: .5rem;
+    }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/SkipMyHouse/SkipMyHouse.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.SkipMyHouse_container__3gu7x{
+    display: flex;
+    height: auto;
+    width: 90%;
+    margin-bottom: 2rem;
+}
+
+.SkipMyHouse_box__J_EzU{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+.SkipMyHouse_textarea__184u_{
+    background-color: #e1dfdf;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    margin: .5rem;
+    margin-top: 1.5rem;
+}
+
+.SkipMyHouse_textarea__184u_:focus{
+    outline: none;
+}
+
+.SkipMyHouse_button__EQujS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: none;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: #235ff4;
+    font-weight: bold;
+    color: white;
+    max-width: 120px;
+}
+
+.SkipMyHouse_button__EQujS:hover{
+    transform: scale(1.08);
+}
+
+.SkipMyHouse_img__UUsbM{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #eae7e7be;
+
+}
+
+.SkipMyHouse_details__s0GZU{
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+}
+
+.SkipMyHouse_item__4r7IH{
+    display: flex;
+    border-radius: 11px;
+    height: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    background-color: #235ff4;
+    color: white;
+}
+
+.SkipMyHouse_item__4r7IH:hover{
+    transform: scale(1.08);
+}
+
+.SkipMyHouse_detailsContainer__qEKsR{
+    /* margin: 2rem; */
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.SkipMyHouse_name__7cHh5{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.SkipMyHouse_title___7Sol{
+    margin-bottom: 1rem;
+    margin-left: .1rem;
+    font-weight: bold;
+}
+
+.SkipMyHouse_input__X7_KD{
+    border: none;
+    outline: none;
+    background-color: #eae7e7be;
+    border-radius: 1rem;
+    height: 30px;
+    width: 70%;
+    padding-left: 1rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    color: black;
+}
+
+.SkipMyHouse_input__X7_KD::placeholder{
+    color: rgba(40, 39, 39, 0.584);
+}
+
+.SkipMyHouse_confirmation_content__4ClXG {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SkipMyHouse_avatar_container__cpJCl {
+  margin-top: 5rem;
+}
+
+.SkipMyHouse_button_container__Dq2pJ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 5rem; */
+  width: 12rem;
+}
+
+.SkipMyHouse_button_wrapper__frmoG {
+    display: flex;
+    justify-content: center;
+    width: 12rem;
+    margin-top: 4rem;
+}
+
+
+@media (max-width: 821px) {
+    .SkipMyHouse_box__J_EzU{
+        grid-template-columns: 35% 70%;
+    }
+}
+@media (max-width: 431px) {
+    .SkipMyHouse_box__J_EzU{
+        grid-template-columns: 40% 70%;
+    }
+}
+@media (max-width: 373px) {
+    .SkipMyHouse_box__J_EzU{
+        grid-template-columns: 43% 55%;
+    }
+    .SkipMyHouse_img__UUsbM{
+        width: 60%;
+        height: 90%;
+    }
+}
+@media (max-width: 360px) {
+    .SkipMyHouse_box__J_EzU{
+        grid-template-columns: 35% 65%;
+    }
+    .SkipMyHouse_img__UUsbM{
+        width: 70%;
+        height: 80%;
+    }
+    .SkipMyHouse_details__s0GZU{
+        margin-top: 0rem;
+        margin-bottom: .5rem;
+    }
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./app/dashboard/dashboard.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.dashboard_adminPanel__KXdW_{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.dashboard_userPanel__1eaPI{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.dashboard_busTitle__42izH{
+    width: 90%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 1.35rem;
+    margin-bottom: 2rem;
+}
+
+.dashboard_busDriverTitle__TMEbL{
+    width: 90%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 1.35rem;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}

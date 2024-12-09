@@ -48,7 +48,6 @@ Screenshots :
 
 ![image](https://github.com/WiTheR60334/BusTracker-Pro/assets/115364885/37e5c56d-9ac2-4def-aa0c-dc84893d09d6)
 
-![image](https://github.com/WiTheR60334/BusTracker-Pro/assets/115364885/d871e9b2-a306-452d-bb0d-1a9a8597c41b)
 
 
 
